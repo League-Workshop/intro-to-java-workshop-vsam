@@ -7,7 +7,10 @@ public class MyFirstJavaProgram {
 	
 	public static void main(String[] args) {
 		
-		// START HERE
+		Robot linus = new Robot();
+		linus.move(10);
+		linus.moveTo(60, 60);
+		System.out.println("Hello Linus");
 	
 		
 		
